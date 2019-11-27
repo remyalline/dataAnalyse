@@ -1550,18 +1550,14 @@ library(carData)
 plot(BEPS[,"vote"],BEPS[,"age"])
 ```
 
-![plot of chunk unnamed-chunk-2](presentation_lab1-figure/unnamed-chunk-2-1.png)
+<img src="presentation_lab1-figure/fig21-1.png" title="plot of chunk fig21" alt="plot of chunk fig21" style="display: block; margin: auto;" />
 
 Slide with plot
 ========================================================
 
-![plot of chunk unnamed-chunk-3](presentation_lab1-figure/unnamed-chunk-3-1.png)
+<img src="presentation_lab1-figure/fig23-1.png" title="plot of chunk fig23" alt="plot of chunk fig23" style="display: block; margin: auto;" />
 
 Slide with app and link https://myshinyappra.shinyapps.io/dataAnalysis/
 ========================================================
 
-
-
-```
-Error in loadNamespace(name) : there is no package called 'webshot'
-```
+<img src="presentation_lab1-figure/fig2-1.png" title="plot of chunk fig2" alt="plot of chunk fig2" style="display: block; margin: auto;" />
