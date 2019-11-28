@@ -1,27 +1,29 @@
-presentation_lab1
+presentation Data Analysis
 ========================================================
 author: 
 date: 
 autosize: true
 
-Slide with data
+<style>
+.small-code pre code {
+  font-size: 1em;
+}
+</style>
+
+we chose as dataset a british panel of voters from 1997-2001
 ========================================================
 
-On a choisi comme datasets Un panel d'electeur britannique de 1997-2001
 
-voila la forme du data set
-```{r, echo=FALSE , results='asis'}
-library("knitr")
-library("carData")
-data("BEPS")
-kable(BEPS)
+```{r}
+library(carData)
+summary(BEPS)
 
 ```
 
 Slide With Code and plot
 ========================================================
-On peut voir sur cette page les relations entre les votes l'age
-```{r fig21, fig.height = 10, fig.width = 20, fig.align = "center", results='asis'}
+We plot the age and age
+```{r fig21, fig.height = 5, fig.width = 20, fig.align = "center", results='asis'}
 library(shiny)
 library(carData)
 
@@ -30,7 +32,7 @@ plot(BEPS[,"vote"],BEPS[,"age"])
 
 Slide with plot
 ========================================================
-
+pie chart of vote repartition
 ```{r fig23, fig.height = 10, fig.width = 20, fig.align = "center",echo=FALSE}
 library(shiny)
 library(carData)
@@ -45,10 +47,10 @@ pie(mytable, labels = lbls,
 
 ```
 
-Slide with app and link https://myshinyappra.shinyapps.io/dataAnalysis/
+Slide with link https://myshinyappra.shinyapps.io/dataAnalysis/
 ========================================================
-
-```{r fig2, fig.height = 10, fig.width = 20, fig.align = "center",echo=FALSE}
+plot of gender and vote
+```{r fig2, fig.height = 10, fig.width = 20, fig.align = "center", echo=FALSE}
 library(shiny)
 library(carData)
 
