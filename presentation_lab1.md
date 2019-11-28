@@ -1,8 +1,15 @@
 presentation Data Analysis
 ========================================================
-author: 
-date: 
+author:ALLINE Remy, Alexandre Tavernier, Priscille DHUICQUE, Tien Hoang-Don LE
+date: 28/11/2019
 autosize: true
+
+
+presentation Rpub:http://rpubs.com/remyalline/presentation_data
+
+Shiny app :https://myshinyappra.shinyapps.io/dataAnalysis/
+
+github code: https://github.com/remyalline/lab_Data_analysis.git
 
 <style>
 .small-code pre code {
